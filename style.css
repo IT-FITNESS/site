@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+}
+
+.textstanga {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    padding: 5px 5px 20px 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.coperta {
+    background-image: url("shop-product-4_2.jpg");
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 0;
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+
+.site-logo {
+    margin-left: 20px;
+}
+
+.stanga {
+    float: left;
+    width: 50%;
+}
+
+.dreapta {
+    float: left;
+    width: 95%;
+    padding: 0px 0px 0px 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.resize {
+    width: 100px;
+    height: auto;
+}
+
+.resize1 {
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.resize2 {
+    width: 405px;
+    height: auto;
+    margin: auto;
+}
+
+.img-with-text {
+    text-align: center;
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sectiune-cv {
+    background-color: lightgray;
+    color: black;
+    padding: 0px 5px 0px 10px;
+    border: 2px solid black;
+    margin: 5px 0px 5px 0px;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+.myfont {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.sectiune2 {
+    background-color: #111111;
+    color: #111111;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid grey;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.sectiune2 h2,
+h4 {
+    color: white;
+}
+
+.rotund {
+    border-radius: 60%;
+}
+
+.ancora {
+    color: black
+}
+
+.textcentru {
+    text-align: center;
+}
+
+.bara-jos {
+    background-color: grey;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    border: 2px solid black;
+    margin: 0px 0px 0px 0px;
+    height: 70px;
+
+}
+
+.bara-jos p {
+    text-align: right;
+    padding: 0px 10px 15px 0px;
+}
+.content{
+    float:left;
+    padding-left: 15px;
+}
+.lista {
+    width: 35%;
+    margin: auto;
+}
+div.gallery {
+    border: 0px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .responsive {
+    padding: 0 5px;
+    float: left;
+    width: 24.99999%;
+  }
+  .img-stanga{
+      float:left;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+.viewport {}
+
+@media only screen and (max-width:600px) {
+    [class*="viewport"] {
+        width: 100%;
+    }
+}
